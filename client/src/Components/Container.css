@@ -1,0 +1,47 @@
+.container {
+    background-color:pink;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.title-container {
+    text-align: center;
+    font-family: 'Brush Script MT',
+        cursive;
+    color: rgb(237, 16, 207);
+}
+
+.input-container {
+    margin-top: 1%;
+    text-align: center;
+}
+
+#input-style {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#input-style::-webkit-color-swatch {
+    border-radius: 15px 50px;;
+    border: 3px solid #8BACE0;
+}
+
+#input-style::-moz-color-swatch {
+    border-radius: 15px;
+    border: none;
+}
+
+.canvas-container {
+    width: 90%;
+    height: 83%;
+    margin: auto;
+    margin-top: 1%;
+    background-color: white;
+}
